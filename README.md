@@ -10,3 +10,5 @@ KopernicusExpansion.
 Dependecies required to be downloaded extra:
 Kopenicus
 Modulemanager
+
+Liscenced under Creative Commons Attribution-ShareAlike 4.0
