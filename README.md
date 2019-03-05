@@ -1,4 +1,4 @@
-# Even-Horizon 
+# Event-Horizon 
 A KSP Planet Addon offering a star system, loosly inspired by the movie interstellar.
 
 Dependencies that are Included in the download:
