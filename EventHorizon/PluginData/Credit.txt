@@ -15,3 +15,9 @@ http://www.textures4photoshop.com/tex/fire-and-smoke/lava-magma-seamless-texture
 Also credit https://www.spacetelescope.org (Nasa) for Various Nebulas which where used to create some of the heightmaps
 
 Earth Heighmap pieces Taken from Terrain.party
+
+
+
+z_ScattererSunFlareFix and z_ScattererSunFlareFixScatterer originally created by and used with permission of ForumUser: Niako (The OtherworldReboot Duck)
+
+Eve and scatterer Configs made by The_Master (Avp current maintainer)
