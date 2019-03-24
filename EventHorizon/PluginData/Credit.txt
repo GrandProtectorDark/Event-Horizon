@@ -19,5 +19,3 @@ Earth Heighmap pieces Taken from Terrain.party
 
 
 z_ScattererSunFlareFix and z_ScattererSunFlareFixScatterer originally created by and used with permission of ForumUser: Niako (The OtherworldReboot Duck)
-
-Eve and scatterer Configs made by The_Master (Avp current maintainer)
