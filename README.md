@@ -13,7 +13,7 @@ Modulemanager
 
 As of this time, this planet pack is still incomplete. Unforseen issue may still find themself here.
 
-Event Horizon used a new feature which was Introduced in Kopernicus Expansion in ksp version 1.4.2, which enables us (planet pack creators) to make functional end to end wormholes.
+Event Horizon uses a new feature which was Introduced in Kopernicus Expansion in ksp version 1.4.2, which enables us (planet pack creators) to make functional end to end wormholes.
 
 How to use the wormholes:
 Be In orbit around the Anomalie.
