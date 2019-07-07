@@ -1,19 +1,17 @@
 # Event-Horizon 
 A KSP Planet Addon offering a star system, loosly inspired by the movie interstellar.
 
-Dependencies that will be Included in the download:
+This deversion requires the following dependencies:
 
-CTTP
-INSTANTIATOR
-KopernicusExpansion.
-
-Dependecies required to be downloaded extra:
-Kopenicus
-Modulemanager
+https://github.com/Kopernicus/Kopernicus/releases
+https://github.com/StollD/KopernicusExpansion-Continued/releases 
+(KEX-EVAFootprints and KEX-Wormholes)
+https://github.com/Galileo88/Community-Terrain-Texture-Pack/releases 
+https://spacedock.info/mod/1624/INSTANTIATOR (Required for the blackhole)
 
 As of this time, this planet pack is still incomplete. Unforseen issue may still find themself here.
 
-Event Horizon used a new feature which was Introduced in Kopernicus Expansion in ksp version 1.4.2, which enables us (planet pack creators) to make functional end to end wormholes.
+Event Horizon uses a new feature which was Introduced in Kopernicus Expansion in ksp version 1.4.2, which enables us (planet pack creators) to make functional end to end wormholes.
 
 How to use the wormholes:
 Be In orbit around the Anomalie.
