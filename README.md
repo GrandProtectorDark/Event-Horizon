@@ -4,9 +4,11 @@ A KSP Planet Addon offering a star system, loosly inspired by the movie interste
 This deversion requires the following dependencies:
 
 https://github.com/Kopernicus/Kopernicus/releases
+
 https://github.com/StollD/KopernicusExpansion-Continued/releases 
 (KEX-EVAFootprints and KEX-Wormholes)
 https://github.com/Galileo88/Community-Terrain-Texture-Pack/releases 
+
 https://spacedock.info/mod/1624/INSTANTIATOR (Required for the blackhole)
 
 As of this time, this planet pack is still incomplete. Unforseen issue may still find themself here.
