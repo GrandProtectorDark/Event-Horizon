@@ -1,0 +1,132 @@
+@Kopernicus:AFTER[KOPERNICUS] 
+{
+	Body
+	{
+		name = Izetta2
+		//Izetta the witch
+		cacheFile = EventHorizon/cache/Izetta2.bin
+		identifier = EventHorizon/Izetta
+		Template
+        {
+            name = Eve 
+			removeAllPQSMods = true
+			removeAtmosphere = true
+        }
+		Properties
+		{
+			description =   Big fam go yeet
+			radius = 197000 
+			rotates = True
+			tidallyLocked = true
+			displayName = Izetta^N
+			albedo = 0.4
+			//add biome stuff
+			ScienceValues
+			{
+				landedDataValue = 5
+				splashedDataValue = 1
+				flyingLowDataValue = 1
+				flyingHighDataValue = 1
+				inSpaceLowDataValue = 4
+				inSpaceHighDataValue = 2.5
+				recoveryValue = 2.5
+				flyingAltitudeThreshold = 18000
+				spaceAltitudeThreshold = 30000
+			}
+		}
+		Orbit
+		{
+			referenceBody = Algal
+			inclination = 2.7608098089695
+			eccentricity = 0.0247454877486152
+			semiMajorAxis = 5701590.81249828
+			longitudeOfAscendingNode = 0
+			argumentOfPeriapsis = 0
+			epoch = 0
+			color = 0.140045136,0.117420815,0.0461538471,1
+			iconTexture = EventHorizon/PluginData/Decals/Izetta_Icon.png
+		}
+		ScaledVersion
+		{
+			type = Vacuum
+			fadeStart = 55000
+			fadeEnd = 60000
+			Material
+			{
+				color = 1,1,1,1
+				specColor = 0,0,0,1
+				shininess = 0.078125
+			}
+			OnDemand
+			{
+				texture = EventHorizon/PluginData/Izetta2_Color.png
+				normals = EventHorizon/PluginData/blackholenormal.dds
+			}
+		}
+		PQS
+		{
+			minLevel = 2
+			maxLevel = 8
+			minDetailDistance = 6
+			maxQuadLengthsPerFrame = 0.03
+			fadeStart = 60000
+			fadeEnd = 120000
+			mapMaxHeight = 10000
+			deactivateAltitude = 542700
+			allowFootprints = True
+			Material
+			{
+				saturation = 1
+				contrast = 1
+				tintColor = 1,1,1,0
+				groundTexStart = 0
+				groundTexEnd = 1800
+				powerNear = 0.58
+				powerFar = 0.58
+				steepTexStart = 400
+				steepTexEnd = 130000
+				steepNearTiling = 1500
+				steepTiling = 250
+				steepTex = BUILTIN/terrain_rock00
+				steepBumpMap = BUILTIN/Cliff (Layered Rock)_NRM
+				lowTex = CTTP/Textures/PluginData/rock.dds
+				lowBumpMap = CTTP/Textures/PluginData/rock_normal.dds
+				lowNearTiling = 500
+				lowMultiFactor = 30
+				lowBumpNearTiling = 5000
+				lowBumpFarTiling = 50
+				midTex = CTTP/Textures/PluginData/sand.dds
+				midBumpMap = CTTP/Textures/PluginData/sand_normal.dds
+				midNearTiling = 210
+				midMultiFactor = 30
+				midBumpNearTiling = 210
+				highTex = CTTP/Textures/PluginData/gravel.dds
+				highBumpMap = CTTP/Textures/PluginData/gravel_normal.dds
+				highNearTiling = 190
+				highMultiFactor = 18
+				lowStart = 0
+				lowEnd = 0.38
+				highStart = 0.78
+				highEnd = 1
+			}
+			Mods
+			{
+				VertexHeightMap
+				{
+					map = EventHorizon/PluginData/Izetta2_Height.png
+					offset = -1670
+					deformity = 10000
+					order = 100
+					enabled = True
+				}
+				VertexColorMap
+                {
+                    map = EventHorizon/PluginData/Izetta2_Color.png
+                    order = 50
+                    enabled = true
+                }
+				
+			}
+		}
+	}
+}
